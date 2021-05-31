@@ -31,7 +31,7 @@ def main():
         else:
             continue
     
-    print("Thank you for using this program. :-)")
+    input("Thank you for using this program. :-)")
 def mirror(image):
     
     while True:
@@ -44,6 +44,7 @@ def mirror(image):
             return mirrorDown(image)
             break
         else:
+            print("\tInvalid input. Try again")
             continue
     
 def mirrorDown(image):
